@@ -1,12 +1,11 @@
 @ Christian Vanzant
 @ csv0004@uah.edu
-@ CS309-01 2021
 
 @ Use these commands to assemble, link, run and debug this program:
-@    as -o Lab4.o Lab4.s
-@    gcc -o Lab4 Lab4.o
-@    ./Lab4 ;echo $?
-@    gdb --args ./Lab4
+@    as -o Factorial.o Factorial.s
+@    gcc -o Factorial Factorial.o
+@    ./Factorial ;echo $?
+@    gdb --args ./Factorial
 
 .equ READERROR, 0  @Used to check for scanf read error. 
 
